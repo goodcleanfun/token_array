@@ -1,0 +1,17 @@
+{
+    "name": "token_array",
+    "version": "0.0.0",
+    "repo": "goodcleanfun/token_array",
+    "description": "Aligned token array, with tokens expressed as 128-bit struct with an offset, value and type.",
+    "keywords": ["token", "array", "aligned"],
+    "license": "MIT",
+    "development": {
+        "silentbicycle/greatest": "*"
+    },
+    "dependencies": {
+        "goodcleanfun/aligned_array": "*"
+    },
+    "src": [
+        "src/token_array.h"
+    ]
+}
